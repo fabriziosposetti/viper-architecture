@@ -1,0 +1,17 @@
+/* 
+  Strings.strings
+  TvMaze
+
+  Created by Fabrizio Sposetti on 10/10/2019.
+  Copyright © 2019 Fabrizio Sposetti. All rights reserved.
+*/
+
+
+"Shows" = "Shows";
+"Ups" = "Ups!";
+"ErrorAlertMessage" = "Something went wrong!";
+"TryAgain" = "Try Again";
+"Cancel" = "Cancel";
+"SearchPeople" = "Search People";
+"Persons" = "Persons";
+"Detail" = "Detail";

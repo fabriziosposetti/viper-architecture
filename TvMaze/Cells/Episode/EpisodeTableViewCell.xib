@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EpisodeTableViewCell" id="KGk-i7-Jjw" customClass="EpisodeTableViewCell" customModule="TvMaze" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOP-3J-WBB">
+                        <rect key="frame" x="98" y="10" width="46" height="27.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="46" id="DqF-cy-fvd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DLd-dH-DLa">
+                        <rect key="frame" x="12" y="15" width="80" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="6m1-Is-X50"/>
+                            <constraint firstAttribute="width" constant="80" id="GCw-Nh-PIP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBS-HF-B2U">
+                        <rect key="frame" x="150" y="10" width="170" height="27.5"/>
+                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBR-a0-TdK">
+                        <rect key="frame" x="274.5" y="53.5" width="33.5" height="28"/>
+                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqg-7E-1gp">
+                        <rect key="frame" x="208" y="53.5" width="60.5" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60.5" id="Hd5-RY-KJU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUe-Id-5MJ">
+                        <rect key="frame" x="162" y="53.5" width="42" height="28"/>
+                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Season:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8m7-sC-uU8">
+                        <rect key="frame" x="98" y="43.5" width="58" height="47.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="58" id="BGr-Tq-yH1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="DLd-dH-DLa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1dl-So-Bif"/>
+                    <constraint firstAttribute="bottom" secondItem="8m7-sC-uU8" secondAttribute="bottom" constant="9" id="8MU-av-DPW"/>
+                    <constraint firstItem="8m7-sC-uU8" firstAttribute="top" secondItem="FOP-3J-WBB" secondAttribute="bottom" constant="6" id="BHT-r3-0Bh"/>
+                    <constraint firstItem="FOP-3J-WBB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="BRI-JT-Lzf"/>
+                    <constraint firstItem="vqg-7E-1gp" firstAttribute="centerY" secondItem="cUe-Id-5MJ" secondAttribute="centerY" id="EMd-rp-E60"/>
+                    <constraint firstItem="cUe-Id-5MJ" firstAttribute="centerY" secondItem="8m7-sC-uU8" secondAttribute="centerY" id="Kzc-sW-1iw"/>
+                    <constraint firstAttribute="trailing" secondItem="FBS-HF-B2U" secondAttribute="trailing" id="L9a-41-5q8"/>
+                    <constraint firstItem="8m7-sC-uU8" firstAttribute="leading" secondItem="DLd-dH-DLa" secondAttribute="trailing" constant="6" id="Qws-33-95Q"/>
+                    <constraint firstItem="FBS-HF-B2U" firstAttribute="leading" secondItem="FOP-3J-WBB" secondAttribute="trailing" constant="6" id="YMa-Ck-ZOs"/>
+                    <constraint firstItem="NBR-a0-TdK" firstAttribute="centerY" secondItem="vqg-7E-1gp" secondAttribute="centerY" id="aWW-su-GGm"/>
+                    <constraint firstItem="vqg-7E-1gp" firstAttribute="leading" secondItem="cUe-Id-5MJ" secondAttribute="trailing" constant="4" id="cYF-G7-coq"/>
+                    <constraint firstItem="DLd-dH-DLa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="hwd-cL-1sI"/>
+                    <constraint firstItem="cUe-Id-5MJ" firstAttribute="leading" secondItem="8m7-sC-uU8" secondAttribute="trailing" constant="6" id="iBj-Fl-wK3"/>
+                    <constraint firstItem="FBS-HF-B2U" firstAttribute="centerY" secondItem="FOP-3J-WBB" secondAttribute="centerY" id="iDa-vo-c22"/>
+                    <constraint firstAttribute="bottom" secondItem="8m7-sC-uU8" secondAttribute="bottom" constant="9" id="jOT-l2-dy0"/>
+                    <constraint firstItem="FOP-3J-WBB" firstAttribute="leading" secondItem="DLd-dH-DLa" secondAttribute="trailing" constant="6" id="tQO-CB-2l2"/>
+                    <constraint firstItem="NBR-a0-TdK" firstAttribute="leading" secondItem="vqg-7E-1gp" secondAttribute="trailing" constant="6" id="vty-dj-eXo"/>
+                    <constraint firstAttribute="trailing" secondItem="NBR-a0-TdK" secondAttribute="trailing" constant="12" id="zC4-8G-u6R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="episodeImage" destination="DLd-dH-DLa" id="Q5U-qE-pDz"/>
+                <outlet property="lblNameEpisode" destination="FBS-HF-B2U" id="vCO-Ks-yFP"/>
+                <outlet property="lblNumberEpisode" destination="NBR-a0-TdK" id="rLZ-ne-NPd"/>
+                <outlet property="lblSeasonEpisode" destination="cUe-Id-5MJ" id="Vdr-Zq-sR1"/>
+            </connections>
+            <point key="canvasLocation" x="108.69565217391305" y="136.60714285714286"/>
+        </tableViewCell>
+    </objects>
+</document>
